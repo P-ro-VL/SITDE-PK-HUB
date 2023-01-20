@@ -1,12 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v7.0/win-x86",
+    "name": ".NETCoreApp,Version=v7.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v7.0": {},
-    ".NETCoreApp,Version=v7.0/win-x86": {
+    ".NETCoreApp,Version=v7.0": {
       "SITDEPK/1.0.0": {
         "dependencies": {
           "FirebaseAdmin": "2.3.0",
@@ -404,8 +403,20 @@
             "fileVersion": "1.0.1462.37"
           }
         },
-        "native": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.1462.37"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.1462.37"
+          },
           "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
             "fileVersion": "1.0.1462.37"
           }
         }
