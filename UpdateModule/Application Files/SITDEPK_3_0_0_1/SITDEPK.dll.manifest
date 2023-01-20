@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="SITDEPK.exe" version="3.0.0.1" publicKeyToken="025e0323f36b9360" language="neutral" processorArchitecture="msil" type="win32" />
-  <description asmv2:publisher="SITDE PK" asmv2:product="SITDE PK" asmv2:supportUrl="https://facebook.com/sitdepk" co.v1:errorReportUrl="https://facebook.com/sitdepk" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:iconFile="SITDEPK_icon.ico" asmv2:publisher="SITDE PK" asmv2:product="SITDE PK" asmv2:supportUrl="https://facebook.com/sitdepk" co.v1:errorReportUrl="https://facebook.com/sitdepk" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -550,58 +550,31 @@
       <dsig:DigestValue>lnujbTPa8w6LFkSWHklP8Ku4XImQOqfaMm2AR4MzLEQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="runtimes\win-arm64\native\WebView2Loader.dll" size="132024">
+  <file name="SITDEPK.deps.json" size="24863">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9YHFbUBmGhfyjJZliVb6q64axA9V7e4JvMHkxTeEico=</dsig:DigestValue>
+      <dsig:DigestValue>U3kiJ/dgtqCBGZUu3hBC/Joan4t7iu2d20y62LgCAcM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="runtimes\win-x64\native\WebView2Loader.dll" size="158648">
+  <file name="SITDEPK.dll" size="3190744">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>cSfyDaoKCnThIKt0I90bMMRZCPjukp8MbNIxK0HFvd8=</dsig:DigestValue>
+      <dsig:DigestValue>2DBe0dHtLTH6DsjtQk53m+X3FfalP7jaNsagP5fPvck=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="runtimes\win-x86\native\WebView2Loader.dll" size="115128">
+  <file name="SITDEPK.exe" size="161752">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>V6vvBiLRzWRuue/hzVjI5ZGSpR+8S7oKb559s+maw8E=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="SITDEPK.deps.json" size="25253">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>1Rudf1mr92XSm2dI+/408nS3jCFERS7Wj3b9abV3kek=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="SITDEPK.dll" size="3148760">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>VDafEaI9qc9yao/y2vprwFJ6njy2llI2/nSfwAYELSc=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="SITDEPK.exe" size="154584">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TV7rk/+3MLt6Igg5Ig8q1jSSY4OF3SU8zKYkrYDBvA8=</dsig:DigestValue>
+      <dsig:DigestValue>b8SI/q0pAeueFshctvtTQ8RleJGeiBuVyP0+WQ3Il/g=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SITDEPK.runtimeconfig.json" size="372">
@@ -611,6 +584,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDEPK_icon.ico" size="42396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dWtvqVnPMhuKMRAvg4nLc+iDku8PYUAtRMpyP7PK7pU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="sk\Firebase.Auth.UI.resources.dll" size="14848">
@@ -703,6 +685,15 @@
       <dsig:DigestValue>bVcs1tjkMqoEZEFcE/X0JmbJ+IKrVDL4bpxohpxMLrU=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="WebView2Loader.dll" size="115128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V6vvBiLRzWRuue/hzVjI5ZGSpR+8S7oKb559s+maw8E=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="YamlDotNet.dll" size="235520">
     <hash>
       <dsig:Transforms>
@@ -721,4 +712,4 @@
       <dsig:DigestValue>veAmmqKlRXyB+TYJq4OGAIH7g7Y28t0JhCUN2nqQiXw=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=PHONGPHONG28\FPTSHOP" issuerKeyHash="2d2e0322a852e547c3bdb3394b7f597fee4d15dc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1ZxbQ5DW7Me6UjX7Svw6QWf//aNpqILSpLsb2kAhXdo=</DigestValue></Reference></SignedInfo><SignatureValue>BFfua8Vw+GGSg20zGW2geLS9z09wA9rtM/g2Yl+XjmHUm1WM4HTqPWTcnVONGbSvQAggcIBcrcRM/OmYnI/9EgNRIVS0nB8gpehHkgbgUPBSBDzAaJADeutQkqYcf0zjj2Vf+ps77U9WRrYsoDY7arMF7/R3/AKT3mtVU11xNMQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="da5d2140da1bbba4d282a869a3fdff67413afc4afb3552bac7ecd690435b9cd5" Description="" Url=""><as:assemblyIdentity name="SITDEPK.exe" version="3.0.0.1" publicKeyToken="025e0323f36b9360" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PHONGPHONG28\FPTSHOP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>npPWsrpFW0tW0n55RxQohPcQS8jN1dmZIIKuRxxvnhQ=</DigestValue></Reference></SignedInfo><SignatureValue>jrvaRNDesw3YA6jdCH8MTAiZ0A1r+13rC+NM7hmgr2jP45I4b7kzXra1yF2SPhLi6bXYfpod53ND0BevaM9CvyBaXANJMve1zU8kpu3Ma54pjKufmQoNK+W9pIDs2JcUT/BpIgxF99jsBC5sIpTfOfJczQTM/S5yvP5zFWnNVhY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWiyZf8nPXopCZlihJ+2gczANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUABIAE8ATgBHAFAASABPAE4ARwAyADgAXABGAFAAVABTAEgATwBQMB4XDTIzMDEyMDEzMDIwM1oXDTI0MDEyMDE5MDIwM1owMzExMC8GA1UEAx4oAFAASABPAE4ARwBQAEgATwBOAEcAMgA4AFwARgBQAFQAUwBIAE8AUDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAFJlvkZ9xBZV8//GRJ+iaDCDUXdeSM5jbj6jFcwjk27zGFbAZVqw66hSkfrf4eilm/DrJ38FQ8cIj0q8mi+nDu5UMCzs3GHNVesxXBJvoijBGnsVoEK9zOMfuPIpg7pXkWmG72RBJs7LcVwwiUFWp6XMB/sstFhsDcz2LgSUuqJg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=PHONGPHONG28\FPTSHOP" issuerKeyHash="2d2e0322a852e547c3bdb3394b7f597fee4d15dc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2eoXqT9TVmIQ/AO2I1Ji7yNrWPx/ahfYVy/tQtORXS4=</DigestValue></Reference></SignedInfo><SignatureValue>az5fWnU3A4cTnSPdmpJUo6WMhZNd82RrQJ8GqQkt7emfC0Nx1NKqanIjqmqx9XhbGDPYw8ZPuh05a2APwJOm0ssdUAw+Q86jKsC+57s79IP7/0z6Ve0dYBR8CDVUoKISlJ4H1UrwGW3HkEUwZ4NmipuTVBR7vWViRcna55JlIFk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2e5d91d342ed2f57d8176a7ffc586b23ef625223b603fc106256533fa917ead9" Description="" Url=""><as:assemblyIdentity name="SITDEPK.exe" version="3.0.0.1" publicKeyToken="025e0323f36b9360" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PHONGPHONG28\FPTSHOP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ExNIgK7zyljgDKmWDURz4mfRMGRWuDAD4pTSrVdIWsU=</DigestValue></Reference></SignedInfo><SignatureValue>CFGRtSiHffszISRJKXlt1w0C0x350Do3kLM2s+vwvHBMZlXU0+baGJkYZpd4snchtPaiZxO/WPsy2Rgds5w2fZHjQKLRFnvE51XvC0UfCnYLVR8DvvxL1S1KeyTV9nH7lmsUTAJyaC9pEaho7n96EnuSdLevPt/AEfecM53IJak=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWiyZf8nPXopCZlihJ+2gczANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUABIAE8ATgBHAFAASABPAE4ARwAyADgAXABGAFAAVABTAEgATwBQMB4XDTIzMDEyMDEzMDIwM1oXDTI0MDEyMDE5MDIwM1owMzExMC8GA1UEAx4oAFAASABPAE4ARwBQAEgATwBOAEcAMgA4AFwARgBQAFQAUwBIAE8AUDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAFJlvkZ9xBZV8//GRJ+iaDCDUXdeSM5jbj6jFcwjk27zGFbAZVqw66hSkfrf4eilm/DrJ38FQ8cIj0q8mi+nDu5UMCzs3GHNVesxXBJvoijBGnsVoEK9zOMfuPIpg7pXkWmG72RBJs7LcVwwiUFWp6XMB/sstFhsDcz2LgSUuqJg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
