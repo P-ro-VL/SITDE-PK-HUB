@@ -1,0 +1,5 @@
+AvailableEvents:
+  SITdeTAROT:
+    Name: "SITdeTAROT"
+    Enable: true
+    ImageURL: ""
