@@ -2,4 +2,4 @@ AvailableEvents:
   SITdeTAROT:
     Name: "SITdeTAROT"
     Enable: true
-    ImageURL: ""
+    ImageURL: "https://raw.githubusercontent.com/P-ro-VL/SITDE-PK-HUB/main/Events/SITdeTAROT/banner.png"
