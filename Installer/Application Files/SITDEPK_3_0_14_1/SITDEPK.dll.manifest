@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SITDEPK.exe" version="3.0.14.1" publicKeyToken="025e0323f36b9360" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="SITDEPK_icon.ico" asmv2:publisher="SITDE PK" co.v1:suiteName="SITDE PK" asmv2:product="SITDE PK" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16856">
+      <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jpY9/IjCTm+65kbyAwjRd7HdbsTZJFje3jeWV8UQa/s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ar\Firebase.Auth.UI.resources.dll" size="17408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r4/gdaw0JmLyjtGKyuFV3slUJZeg4jOCn/YTWIJh56g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bg\Firebase.Auth.UI.resources.dll" size="16896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sX0Fk+74tzqspyn0O76RGfpX7SRH/jv7JCTNvuuBbB8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BouncyCastle.Cryptography.dll" size="7068440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ghU8DmiDSg9A4gA4QlQpo+P5z02rvJGRtHbP5WGKFB0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ca\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ssZ3i6I57J43ATLjCVWys4UWU3YUoxf6qpJTKatWv/k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cs\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SXuNNJCMuvkseRgmYtGBk7CySPHzaXFHPMtg3ZH1uio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="da\Firebase.Auth.UI.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZX71JJEYRJCpqhpjlc1tPOMSqPDGdxYmmhAjMpTnHNA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="de\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uedfbaRx2cmkU2BwVZ/iQhv4jzAEcimZk13uom28Ehg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="el\Firebase.Auth.UI.resources.dll" size="19456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4ZZBjm1Oga5iX7kcrpTinhlNIvVB23zcHHfMv+FynBE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="es\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R584ZUHM++9loRvDXmpH7vIsyvXdM4jnRxzOSXSmsUo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="fa\Firebase.Auth.UI.resources.dll" size="16384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/WpxFtP0Gbi2Djom5m6t4yqxEnD1UzSJYSagb7wdwN0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="fi\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qJc2C+XGdtBCLLuilVtuOPnb3lL9rpYs+YsA4IHvd0Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Firebase.Auth.dll" size="81408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jdBzFH49DT569fCA1gLH8zRO1rk8mF68dzhmDa1fMYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Firebase.Auth.UI.dll" size="61440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NjPc6v+WI8/ijBD/2e6tl86+eXw3XC/VvCFhunUFV40=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Firebase.Auth.UI.WPF.dll" size="65024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SvwA60IKV41EABXzQyYE/fmMq9lZIO/RSD258R7N/8Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FirebaseAdmin.dll" size="283136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZMpPHTr5u+omVGl5w0rkLCWbgHrSrrU34E77mOFtRUM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="fr\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XWcA5bOyN3bVUDegV2Bnt3mI7v6vJ1euJkC+7uvVLfU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Api.CommonProtos.dll" size="397824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2U2DmkufTVMpq7OMbp3uNtv71C6Fp73VoT41RcmqFQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Api.Gax.dll" size="78848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UCj7/JeDgFA4uOKw1HkDzJO+VGKfIwLwb/ugLssN4wQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Api.Gax.Grpc.dll" size="192512">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W2G0Y7mmNG/dMAc9tYLtSd+lRrBLf92/xHSGo9rvNgU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Api.Gax.Rest.dll" size="25088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IRF7rgoiZcEjKXThFUWFg2p/akDJYwTBcwz40ll6DMU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.Auth.dll" size="207360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sj2IR/sQEjDPdl+NJT9B+iJxBXDOjSq+YcQIOMP5T2c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.Auth.PlatformServices.dll" size="5120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jHbldTgT1T60bv+h5zc47UvalfeIVQ5HLFKmdrdEIus=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.Core.dll" size="78848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sZlOSfvSfLriuMGUQgvXNKz7IXzF2LJW7semuuo9C8E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.dll" size="81408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B3Omh6UIvYWmPT3DsEKe4KIxgMXd/q8+4P4k7Mb0dHU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Cloud.Firestore.dll" size="160768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QQtrrfs6KBzLFUGe/bPF+M5UPQKgjCaAoAY/nOnfwAI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Cloud.Firestore.V1.dll" size="266752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IPG4cDYkcQ2MTOnxtW9OCEqQMNv9DcvbUFamTlA/ZlQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Cloud.Location.dll" size="34816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p752tla+h+HPVY4eQB7Ih7XYk4sJbrrueSqY4dQDidU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.LongRunning.dll" size="62464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JG8p8+f8VyMamq+M+SpCzUJtK5+Djs1VZtQZm6DWtNU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Protobuf.dll" size="407952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D+b2BlTwYc4y+ZeIGsjL8dZLqpHUjo3J7IAzvrCyy5E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Grpc.Auth.dll" size="21784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rI2WzfVslUw8YN6mV3iWgkX5V5HWkbDKntp7yp3HuDE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Grpc.Core.Api.dll" size="61208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hDozhKIrByDE55Pez6dafKetPv1XKMTeccBgcIdXGWk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Grpc.Net.Client.dll" size="268056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QBg0ercl/N3Qj+cW/txU7gE4XhKh3pvKRUq4m+Oa57Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Grpc.Net.Common.dll" size="22296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FUXhoAB92fRtVnvSCd+gyPe3GfzE6zTSxj31rCFrYXA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hi\Firebase.Auth.UI.resources.dll" size="19968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RSoKD0VJgSZUD/JUgpAdawCeWHCt9i71/2MCQ3YvnGA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hr\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SFxKQOX3m23/bkrTIRL4dxZ/8tD2fkRH/yhYgFrSthU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hu\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uNCnpUi3X221X2LU5Hgg9bijWbfBoca4mgBHfcIJmQs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ICSharpCode.AvalonEdit.dll" size="616960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JBfhFu0js8t97ZdZvffb3Prg99WNcbHdXiZPVRDT7qE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="in\Firebase.Auth.UI.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fBcxXRJPMbfdfl9kXDcE6shbVBsj5bLnJVhFCwTsHC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="it\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U01AKyzNeVXAZJ6mZzT0B/2dLfDuQ72jsBB9GaidW1k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iw\Firebase.Auth.UI.resources.dll" size="15872">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DD4qj18lhVcRUjux4dMtkDzkwUCAQ5OZa13fUp9JOhI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ja\Firebase.Auth.UI.resources.dll" size="15360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ogHoiiWpWVn8lAT4jSVWNXFvbqCiR4ahoyIT8B8iPu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ko\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vD0gtJdiEOPNleHn/0BRgKxBEv4rU11bA4MCrTdM+lc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lt\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5yg/HSKp0SSxq0kxZICf4jBMGQItgl1IQlrVtE25y4s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lv\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+t7amL5WAh61kls7lkDpRZlj+sXcFdTUwcI6rjTBTc4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MailKit.dll" size="875520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qEp79FNRhqQHjQ9uXDSdHRNpO1weZlMTEwlK1Ndjru4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MdXaml.dll" size="147968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>piH1qA2pvwnPExRdlFkZc5c7bcqjhqfnmszL+dQT3ec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MdXaml.Plugins.dll" size="12800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BReCl8RGbxLwudNlROzgZFC+Osbohrmbb61VC/LAK+A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Bcl.AsyncInterfaces.dll" size="16000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VwXSRQctPreEAFR7MhR9u24siwK6i9p2cpeY9e/erss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.DependencyInjection.Abstractions.dll" size="43632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nM2DA1GqKLxoPU+NHO/Z5yQWH5ctJb+2Tu5b9VxIxeM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.Logging.Abstractions.dll" size="48720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5u/ZA3KYhOhgHtntEmW+FmzyIQ3+X4rGTVKb6isIByw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Web.WebView2.Core.dll" size="472504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xv63PsHLknHyAE0lhv4YM2IaD809BKb8Hc8IVX1jSsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Web.WebView2.WinForms.dll" size="38360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mDpp6a5B58yRlicEqQOiwt1J1GTyQ6fRAdC3Ffcj8cY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Web.WebView2.Wpf.dll" size="45032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Kfbn2sIk/AupHkUUXiCf2xjJhXgSgNd4ru29HqiF8Tc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MimeKit.dll" size="1184768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3C21jNPR1bUa1/h/KOUXix0s8xj3sT6EcSk64tt36iE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Newtonsoft.Json.dll" size="711952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SBbEJ29XXk2FuAYzoN8urfKUlv4AvcM814Q+YTc73g4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="nl\Firebase.Auth.UI.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e04h9oi3VSSxSqs1o9aDTdj4kWL7SHLlp3sXaekjRhI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="no\Firebase.Auth.UI.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CdJQFusGEJyNGbbkERnZz5lc1OpepZJDbyIcG1zXZSM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pl\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CwaZELEdL68H1F0pLfae/1AxIzH4TcJv0HkjbslK8EM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pt\Firebase.Auth.UI.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3aCCqWZJi8WpARutEMb9CqEYh1GYDiSu+rRZMaLpFK8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ro\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C5CToLTea3q/aKMigQ3jx4657q3BplkL62BCglc7n50=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ru\Firebase.Auth.UI.resources.dll" size="17920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WyaFExSAZGKSvjEh52SdLarP+a6YjexqFNvAx46Jtyw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll" size="313976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B4GzO5f2dTvVPtLfP4kq2FEzj5s+hAvVI7b//sNLVYE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-arm64\native\WebView2Loader.dll" size="135640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bHP9dbiApf3vD1AEdlMblIi888lreeoXiZtLyTG604A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x64\native\WebView2Loader.dll" size="160232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jW/osUUp4dagKn8tWZHucqzg1+LxkBxxz9ffMQYA9ME=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x86\native\WebView2Loader.dll" size="115672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jBsK6LfnqkAkB/APIu+xmJ5Hrqqcah/6mDQWctns9tw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDEPK.deps.json" size="31835">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5R9BoVpzyuLukykjmMq87DFJ9gDV8elQUT24b0OUy98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDEPK.dll" size="8233944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EY82rldryovetAGBZc0HYRGKhUvu43xhW87tu3ugE0A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDEPK.exe" size="197592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZmMxtlsQtj44pXaUbjF74N6HbVhmNloAzwlNWYXj+IY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDEPK.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDEPK_icon.ico" size="42396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dWtvqVnPMhuKMRAvg4nLc+iDku8PYUAtRMpyP7PK7pU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SixLabors.ImageSharp.dll" size="2030080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ChXKZM0tkdyUSBBV/f4pojJDhfhpPw71biQxQFOH8yo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sk\Firebase.Auth.UI.resources.dll" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k13ZkpaAmJzIrq1MwHxccjKea1mbXsZCMsjVoKqNGac=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sl\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1xt9gWj8Ru0cdFHzOe9/vorrsp5KsIc2d4EO6GS/maw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sr-Cyrl\Firebase.Auth.UI.resources.dll" size="16896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K89hF0tbEoSn+/E9hpHPLaK9i7GSFZu0SY2AGQmBEQ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sv\Firebase.Auth.UI.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c3Os+RxeycpXkWAB+/QDetg/n1BfnTIKC0jREb9h7RE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Linq.Async.dll" size="1112720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FJdXpBE65hAsQl8UaafMFN6yhjXpTLyeBAT15NxRgAE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Security.Cryptography.Pkcs.dll" size="261240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xyy6snHL0b+IhIYXasRJQYbaGw8LNimr5WZNqTDSqYw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="th\Firebase.Auth.UI.resources.dll" size="19456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Yvrb74NnbMPWlHkh4PZDQ1G8rA/3G0pJRv+ncIuUtws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tr\Firebase.Auth.UI.resources.dll" size="14336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6GXjSBGFVXswtj5wHXGqJVJeskTLpEL/0KwOUgOIWH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="uk\Firebase.Auth.UI.resources.dll" size="17920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47e58+6hVNa673BY+Y6CDOyme1UPMtxYNMaTd6rXsFg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ur\Firebase.Auth.UI.resources.dll" size="16896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f4Uf/EB/dHQkuB+oMuVIg0XseQMVMGLgbKiY+yzu1WI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vi\Firebase.Auth.UI.resources.dll" size="15360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7le+Lwffp1fD9SqtDJDto8fpekAfR6VJXGaaGlP1qfY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WpfAnimatedGif.dll" size="43008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CRyUTy25VSH5GQMZFz8XhI1RXaj1ojdKCraAQGumWRQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="YamlDotNet.dll" size="265728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w/14Aqb4N7MFoRPIQVPegQ13z6N373b3bXA6Cs8CCd4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="zh\Firebase.Auth.UI.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5D/GhWxtjh7Oyisz5mylkxnzZUybBGCOSaeaqhakd1g=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PHONGPHONG28\FPTSHOP" issuerKeyHash="2d2e0322a852e547c3bdb3394b7f597fee4d15dc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ELd0HW+tJRSp9DILGHS2MaEuEFSoeWf7duOuJwQXWpU=</DigestValue></Reference></SignedInfo><SignatureValue>gewWwSYUDGScIUwR/3u11M5gnh6LgvonSaYwCXzBiDbqHO5bhGPYSKuQ7/M2DBgCFffXZ3ldJXdBgUVa95PKwbE4B/aVHKkQlFlCRHKNiAGyx2Y+UM79fRW+oFmBCGxm1YdsWvvCKV1fDXcdarz3ww6WI9MWyCCqJHp5TKVAHL8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="955a170427aee376fb6779a854102ea131b674180b32f4a91425ad6f1d74b710" Description="" Url=""><as:assemblyIdentity name="SITDEPK.exe" version="3.0.14.1" publicKeyToken="025e0323f36b9360" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PHONGPHONG28\FPTSHOP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>F5ZcyVipbQ//YyyAdiC40/hfj/0mqfZPHdY6LovHKuE=</DigestValue></Reference></SignedInfo><SignatureValue>iEXFkYLAJsgJZG5aDe5ErwvzfFyXUbl2opMGubl4bkH0IlnsDJBdXLEkplGxsOh/IE8OX8HT0pjCIWwEyDn19iZbU9cIs/iEafW6Blf0mmfEW1j87z9VUbz34cgCvYudLvqyM4ja9smTxAvkcJ3yY4XW5x3fLiveuzubgw5r+vI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWiyZf8nPXopCZlihJ+2gczANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUABIAE8ATgBHAFAASABPAE4ARwAyADgAXABGAFAAVABTAEgATwBQMB4XDTIzMDEyMDEzMDIwM1oXDTI0MDEyMDE5MDIwM1owMzExMC8GA1UEAx4oAFAASABPAE4ARwBQAEgATwBOAEcAMgA4AFwARgBQAFQAUwBIAE8AUDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0N6S2XD6Xq2bKQWHTAiN+NiRGAnGUMsYd297MqP/NLUoG6n9wio4X4q44CuwEH4m9fMNwXL4oymacF2DtjU0Tbj2iruLjCYeHo6JSyHajahXjmYHeNnPj6Q3PGfsx9bMfgkAXOTwI2WIQnfchdpou2aLyF2L2nq09AJquJawkV0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAFJlvkZ9xBZV8//GRJ+iaDCDUXdeSM5jbj6jFcwjk27zGFbAZVqw66hSkfrf4eilm/DrJ38FQ8cIj0q8mi+nDu5UMCzs3GHNVesxXBJvoijBGnsVoEK9zOMfuPIpg7pXkWmG72RBJs7LcVwwiUFWp6XMB/sstFhsDcz2LgSUuqJg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
